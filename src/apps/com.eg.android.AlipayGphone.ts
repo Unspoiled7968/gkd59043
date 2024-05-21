@@ -18,6 +18,4 @@ export default defineGkdApp({
       matchTime: 5000,
     },
   ],
-}
-
-);
+});
