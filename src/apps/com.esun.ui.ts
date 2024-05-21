@@ -12,7 +12,10 @@ export default defineGkdApp({
         {
           quickFind: true,
           activityIds: 'com.esun.mainact.home.main.HomeMainActivityV413',
-          matches: '[text="关闭"]',
+          matches: {
+            '[text="关闭"]',
+            '[id="com.esun.ui:id/dialog_close_view"]',
+          },
         },
       ],
     },
