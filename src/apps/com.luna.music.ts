@@ -20,7 +20,7 @@ export default defineGkdApp({
           matches: '[text="领取奖励"]',
         },
         {
-          quickFind: true,        
+          quickFind: true,
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches: '[text~="立即解锁 第.*天畅听"]',
         },
