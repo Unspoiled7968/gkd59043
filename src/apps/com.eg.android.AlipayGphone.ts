@@ -6,8 +6,9 @@ export default defineGkdApp({
   groups: [
     {
       key: 1,
-      name: '[ChangeMe]规则名称-2024-05-21 12:49:27',
-      desc: '[ChangeMe]本规则由GKD网页端审查工具生成',
+      name: '名下其他账号花呗恢复使用X',
+      desc: '点击X',
+      quickFind: true,
       rules: [
         {
           activityIds: 'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
@@ -17,3 +18,5 @@ export default defineGkdApp({
     },
   ],
 });
+
+
