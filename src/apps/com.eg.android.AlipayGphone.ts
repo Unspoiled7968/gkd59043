@@ -8,7 +8,6 @@ export default defineGkdApp({
       key: 1,
       name: '名下其他账号花呗恢复使用X',
       desc: '点击X',
-      action: 'click',
       rules: [
         {
           activityIds: 'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
