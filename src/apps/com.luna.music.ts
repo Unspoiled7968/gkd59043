@@ -34,7 +34,7 @@ export default defineGkdApp({
       desc: '点击立即解锁',
       rules: [
         {
-          quickFind: true,        
+          quickFind: true,
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches: '[text~="立即解锁 第.*天畅听"]',
         },
