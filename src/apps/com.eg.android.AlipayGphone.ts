@@ -11,8 +11,10 @@ export default defineGkdApp({
       quickFind: true,
       rules: [
         {
-          activityIds: 'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
-          matches: '@View + [text="你名下其他账号的花呗暂时无法使用，完成确认可恢复使用"]',
+          activityIds:
+            'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
+          matches:
+            '@View + [text="你名下其他账号的花呗暂时无法使用，完成确认可恢复使用"]',
         },
       ],
     },
