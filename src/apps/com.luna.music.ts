@@ -12,7 +12,12 @@ export default defineGkdApp({
         {
           quickFind: true,
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
-          matches: '[text="领取成功，关闭，按钮"]',
+          matches: '[text~=".*取成.*"]',
+        },
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
+          matches: '[text="领取成功"]',
         },
         {
           quickFind: true,
