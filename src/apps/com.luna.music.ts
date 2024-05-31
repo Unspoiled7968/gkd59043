@@ -11,11 +11,13 @@ export default defineGkdApp({
       rules: [
         {
           quickFind: true,
+          action: 'clickCenter',
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches: '[text*="领取成功"]',
         },
         {
           quickFind: true,
+          action: 'clickCenter',
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches: '[text="领取奖励"]',
         },
