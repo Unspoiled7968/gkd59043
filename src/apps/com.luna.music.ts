@@ -25,20 +25,14 @@ export default defineGkdApp({
           quickFind: true,
           action: 'clickCenter',
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
-          matches: '[text^="0s"]',
+          matches: '[text$="\d\d0s"]',
         },
         {
-          quickFind: true,
           action: 'clickCenter',
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches: '[text~="立即解锁.*畅听"]',
         },
-        {
-          quickFind: true,
-          action: 'clickCenter',
-          activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
-          matches: '[text~="立即解锁 第.*天畅听"]',
-        },
+
       ],
     },
   ],
