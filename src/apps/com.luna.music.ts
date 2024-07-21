@@ -38,6 +38,11 @@ export default defineGkdApp({
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches: '[text~=".*解锁.*畅听"]',
         },
+        {
+          action: 'clickCenter',
+          activityIds: 'com.luna.biz.main.main.MainActivity',
+          matches: '[text~=".*解锁.*畅听"]',
+        },
       ],
     },
   ],
