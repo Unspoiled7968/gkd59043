@@ -25,13 +25,6 @@ export default defineGkdApp({
         {
           quickFind: true,
           action: 'clickCenter',
-          forcedTime: 35000,
-          activityIds: 'com.luna.biz.main.main.MainActivity',
-          matches: '[text*="领取成功"]',
-        },
-        {
-          quickFind: true,
-          action: 'clickCenter',
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches: '[text="领取奖励"]',
         },
