@@ -12,6 +12,7 @@ export default defineGkdApp({
         {
           quickFind: true,
           action: 'clickCenter',
+          excludeActivityIds: [],
           forcedTime: 35000,
           activityIds: undefined,
           matches: '[text*="领取成功"]',
@@ -30,18 +31,7 @@ export default defineGkdApp({
         },
         {
           action: 'clickCenter',
-          activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
-          matches: '[text~="立即解锁.*畅听"]',
-        },
-        {
-          quickFind: true,
-          action: 'clickCenter',
-          activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
-          matches: '[text~=".*解锁.*畅听"]',
-        },
-        {
-          action: 'clickCenter',
-          activityIds: 'com.luna.biz.main.main.MainActivity',
+          activityIds: ['com.luna.biz.main.main.MainActivity','com.ss.android.excitingvideo.ExcitingVideoActivity'],
           matches: '[text~=".*解锁.*畅听"]',
         },
       ],
