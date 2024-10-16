@@ -24,12 +24,6 @@ export default defineGkdApp({
           matches: '[text="领取奖励"]',
         },
         {
-          quickFind: true,
-          action: 'clickCenter',
-          activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
-          matches: '[text$="dd0s"]',
-        },
-        {
           action: 'clickCenter',
           activityIds: ['com.luna.biz.main.main.MainActivity','com.ss.android.excitingvideo.ExcitingVideoActivity'],
           matches: '[text~=".*解锁.*畅听"]',
@@ -44,7 +38,7 @@ export default defineGkdApp({
         {
           quickFind: true,
           action: 'clickCenter',
-          activityIds: 'com.luna.biz.main.main.MainActivity',
+          activityIds: ['com.luna.biz.main.main.MainActivity','com.ss.android.excitingvideo.ExcitingVideoActivity'],
           matches: '[text="开启声音"]',
         },
       ],
