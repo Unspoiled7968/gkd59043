@@ -44,6 +44,7 @@ export default defineGkdApp({
           activityIds: [
             'com.luna.biz.main.main.MainActivity',
             'com.ss.android.excitingvideo.ExcitingVideoActivity',
+            'com.luna.biz.ad.AdActivity',
           ],
           matches: '[text="开启声音"]',
         },
