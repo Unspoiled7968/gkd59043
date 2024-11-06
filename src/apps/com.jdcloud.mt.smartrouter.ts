@@ -38,7 +38,6 @@ export default defineGkdApp({
         },
         {
           action: 'clickCenter',
-          desc: '看广告×',
           activityIds: [
             'com.qq.e.ads.PortraitADActivity',
             '.newapp.activity.MainActivity',
