@@ -16,7 +16,6 @@ export default defineGkdApp({
             'com.qq.e.ads.PortraitADActivity',
           ],
           matches: '[text="继续赚京豆"]',
-
         },
         {
           action: 'clickCenter',
@@ -25,7 +24,6 @@ export default defineGkdApp({
             'com.qq.e.ads.PortraitADActivity',
           ],
           matches: '[text="点击广告拿奖励"]',
-
         },
         {
           action: 'clickCenter',
@@ -34,7 +32,6 @@ export default defineGkdApp({
             '.newapp.activity.MainActivity',
           ],
           matches: '@ImageView <<(3) FrameLayout >(3) [text="恭喜获得奖励"]',
-
         },
         {
           action: 'clickCenter',
@@ -43,7 +40,6 @@ export default defineGkdApp({
             '.newapp.activity.MainActivity',
           ],
           matches: '@FrameLayout - LinearLayout >2 [text="恭喜获得奖励"]',
-
         },
         {
           action: 'clickCenter',
@@ -53,7 +49,6 @@ export default defineGkdApp({
             'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           ],
           matches: 'ImageView[vid="iv_bean"] +4 [text="继续赚京豆"]',
-
         },
       ],
     },
