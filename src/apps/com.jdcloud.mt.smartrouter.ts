@@ -63,7 +63,7 @@ export default defineGkdApp({
         },
       ],
     },
-    {
+    { 
       key: 4,
       name: '激励广告领金豆',
       desc: '观看单个广告结束是否点击继续',
@@ -106,4 +106,3 @@ export default defineGkdApp({
     },
   ],
 });
- 
