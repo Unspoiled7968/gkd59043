@@ -15,7 +15,7 @@ export default defineGkdApp({
             '.newapp.activity.MainActivity',
             'com.qq.e.ads.PortraitADActivity',
           ],
-          matches: '[text="继续赚京豆"]',
+          matches: '[text="点击广告拿奖励"]',
         },
       ]
     },
@@ -24,14 +24,7 @@ export default defineGkdApp({
       name: '激励广告领金豆',
       desc: '观看广告过程等待结束自动点击关闭',
       rules: [
-        {
-          action: 'clickCenter',
-          activityIds: [
-            '.newapp.activity.MainActivity',
-            'com.qq.e.ads.PortraitADActivity',
-          ],
-          matches: '[text="点击广告拿奖励"]',
-        },
+
         {
           action: 'clickCenter',
           activityIds: [
