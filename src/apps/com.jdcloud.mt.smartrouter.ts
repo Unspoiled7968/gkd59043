@@ -6,7 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 1,
-      name: '激励广告领金豆',
+      name: '看广告领金豆-开始',
       desc: '切换到wait页自动观看广告',
       rules: [
         {
@@ -21,7 +21,7 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: '激励广告领金豆',
+      name: '看广告领金豆-过程',
       desc: '观看广告过程等待结束自动点击关闭',
       rules: [
 
@@ -65,7 +65,7 @@ export default defineGkdApp({
     },
     { 
       key: 4,
-      name: '激励广告领金豆',
+      name: '看广告领金豆-过程2',
       desc: '观看单个广告结束是否点击继续',
       rules: [
         {
@@ -89,7 +89,7 @@ export default defineGkdApp({
     },
     {
       key: 5,
-      name: '激励广告领金豆',
+      name: '看广告领金豆-结束',
       desc: '全部观看结束 点击继续赚',
       rules: [
         {
