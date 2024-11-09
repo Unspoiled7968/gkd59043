@@ -17,14 +17,13 @@ export default defineGkdApp({
           ],
           matches: '[text="开始赚京豆"]',
         },
-      ]
+      ],
     },
     {
       key: 2,
       name: '看广告领金豆-过程',
       desc: '观看广告过程等待结束自动点击关闭',
       rules: [
-
         {
           action: 'clickCenter',
           activityIds: [
@@ -49,7 +48,6 @@ export default defineGkdApp({
             'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           ],
           matches: '@ImageView <<3 ViewGroup >2 [text="我要免看本次广告"]',
-
         },
         {
           action: 'clickCenter',
@@ -58,12 +56,12 @@ export default defineGkdApp({
             'com.qq.e.ads.PortraitADActivity',
             'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           ],
-          matches: '@ImageView <<3 ViewGroup[name="android.view.ViewGroup"] - ViewGroup >2 [text="免费获取"]',
-
+          matches:
+            '@ImageView <<3 ViewGroup[name="android.view.ViewGroup"] - ViewGroup >2 [text="免费获取"]',
         },
       ],
     },
-    { 
+    {
       key: 4,
       name: '看广告领金豆-过程2',
       desc: '观看单个广告结束是否点击继续',
@@ -85,7 +83,7 @@ export default defineGkdApp({
           ],
           matches: 'ImageView[vid="iv_bean"] +4 [text="继续赚京豆"]',
         },
-      ]
+      ],
     },
     {
       key: 5,
@@ -99,8 +97,8 @@ export default defineGkdApp({
             'com.qq.e.ads.PortraitADActivity',
             'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           ],
-          matches: '@Button[text="明天继续赚呀！"] -2 TextView[text="今日观看奖励次数已用完"]',
-
+          matches:
+            '@Button[text="明天继续赚呀！"] -2 TextView[text="今日观看奖励次数已用完"]',
         },
       ],
     },
