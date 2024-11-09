@@ -15,7 +15,7 @@ export default defineGkdApp({
             '.newapp.activity.MainActivity',
             'com.qq.e.ads.PortraitADActivity',
           ],
-          matches: '[text="点击广告拿奖励"]',
+          matches: '[text="开始赚京豆"]',
         },
       ]
     },
