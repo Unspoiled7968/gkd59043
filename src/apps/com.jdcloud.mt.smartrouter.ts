@@ -29,30 +29,34 @@ export default defineGkdApp({
           activityIds: [
             '.newapp.activity.MainActivity',
             'com.qq.e.ads.PortraitADActivity',
+            'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           ],
           matches: '[text="点击广告拿奖励"]',
         },
         {
           action: 'clickCenter',
           activityIds: [
-            'com.qq.e.ads.PortraitADActivity',
             '.newapp.activity.MainActivity',
+            'com.qq.e.ads.PortraitADActivity',
+            'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           ],
           matches: 'TextView[text="立即获取"] <<3 * >3 TextView[text="跳过"]',
         },
         {
           action: 'clickCenter',
           activityIds: [
-            'com.qq.e.ads.PortraitADActivity',
             '.newapp.activity.MainActivity',
+            'com.qq.e.ads.PortraitADActivity',
+            'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           ],
-          matches: '@ImageView <<(3) FrameLayout >(3) [text="恭喜获得奖励"]',
+          matches: '@ImageView <<(3,4) FrameLayout >(3) [text="恭喜获得奖励"]',
         },
         {
           action: 'clickCenter',
           activityIds: [
-            'com.qq.e.ads.PortraitADActivity',
             '.newapp.activity.MainActivity',
+            'com.qq.e.ads.PortraitADActivity',
+            'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           ],
           matches: '@FrameLayout - LinearLayout >2 [text="恭喜获得奖励"]',
         },
