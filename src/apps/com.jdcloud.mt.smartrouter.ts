@@ -79,7 +79,6 @@ export default defineGkdApp({
           matches:
             '@ImageView <<3 ViewGroup[name="android.view.ViewGroup"] - ViewGroup >2 [text="免费获取"]',
         },
-
       ],
     },
     {
