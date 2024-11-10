@@ -79,26 +79,7 @@ export default defineGkdApp({
           matches:
             '@ImageView <<3 ViewGroup[name="android.view.ViewGroup"] - ViewGroup >2 [text="免费获取"]',
         },
-        {
-          action: 'clickCenter',
-          activityIds: [
-            'com.qq.e.ads.PortraitADActivity',
-            '.newapp.activity.MainActivity',
-            'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
-          ],
-          matches:
-            '@ViewGroup[desc="gift_box"] << ViewGroup + ViewGroup >3 TextView[text="立即获取"] <<3 * >3 @TextView[text="跳过"]',
-        },
-        {
-          action: 'clickCenter',
-          activityIds: [
-            'com.qq.e.ads.PortraitADActivity',
-            '.newapp.activity.MainActivity',
-            'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
-          ],
-          matches:
-            '@ViewGroup[desc="close_button"] - ViewGroup > ViewGroup[desc="call_button"] > TextView[text="立即获取"]',
-        },
+
       ],
     },
     {
